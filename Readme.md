@@ -982,6 +982,7 @@ AVL是严格平衡树，因此在增加或者删除节点的时候，根据不�
 ```python
 fib = lambda n: n if n <= 2 else fib(n - 1) + fib(n - 2)
 ```
+
 第二种方法
 ```python
 1<<(n-1)
