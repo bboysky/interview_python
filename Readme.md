@@ -983,11 +983,6 @@ AVL是严格平衡树，因此在增加或者删除节点的时候，根据不�
 fib = lambda n: n if n <= 2 else fib(n - 1) + fib(n - 2)
 ```
 
-第二种方法
-```python
-1<<(n-1)
-```
-
 第二种记忆方法
 
 ```python
@@ -1023,6 +1018,11 @@ def fib(n):
 
 ```python
 fib = lambda n: n if n < 2 else 2 * fib(n - 1)
+```
+
+第二种方法
+```python
+1<<(n-1)
 ```
 
 ## 3 矩形覆盖
